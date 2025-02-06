@@ -15,11 +15,11 @@ public class TheaterKiosk
             userAge = input.nextInt();
             if(userAge >= MINIMUM_AGE)
             {
-                System.out.println("You indicated you are " + userAge + "years old. Please get a paper wristband!");
+                System.out.println("You indicated you are " + userAge + " years old. Please get a paper wristband!");
             }
             else
             {
-                System.out.println("You are not old enough for a wristband. Have a good night.");
+                //This can be added to give a response to people under 21: System.out.println("You are not old enough for a wristband. Have a good night.");
             }
         }
         else
